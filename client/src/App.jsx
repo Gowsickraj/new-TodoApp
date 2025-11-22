@@ -14,7 +14,7 @@ const App = () => {
   const [totalPage, setTotalPage] = useState(1)
   const [search, setSearch] = useState('')
   // const ApiUrl = "http://localhost:3000/api"
-  const ApiUrl = "https://new-todoapp-backend.onrender.com"
+  const ApiUrl = "https://new-todoapp-backend.onrender.com/api"
 
 
   const getData = async () => {
