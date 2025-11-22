@@ -24,8 +24,6 @@ const App = () => {
       })
       setData(Response.data.data)
       setTotalPage(Response.data.totalPage)
-      console.log(Response.data.totalPage, "(Response data of GetData....");
-
     } catch (error) {
       console.error("Error while getting error")
     }
@@ -77,7 +75,6 @@ const App = () => {
   }
 
   const handleEdit = (item) => {
-    console.log(item, "item._id");
 
     setForm({ userName: item.userName, text: item.text })
     setEditId(item._id)
